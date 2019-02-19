@@ -1,0 +1,25 @@
+telegram:
+  useFirstNameInsteadOfUsername: true
+  colonAfterSenderName: false
+  skipOldMessages: true
+  sendEmojiWithStickers: true
+  token: '714620453:AAFHr1iTO8lkYht2TPSlNBrKF-6wvAX5cNQ'
+discord:
+  skipOldMessages: true
+  useNickname: false
+  token: NTIwNDA0MTQxMjAyMzQxODk3.DutX3g.Lr5IrhjQ2G64td1HyWj6Wot35Ak
+debug: true
+bridges:
+  - name: XP-Telegram
+    direction: both
+    telegram:
+      chatId: -1001483265150
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
+    discord:
+      serverId: '343758193677172757'
+      channelId: '520404247859167235'
+      relayJoinMessages: false
+      relayLeaveMessages: false
+      sendUsernames: true
