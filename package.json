@@ -19,7 +19,7 @@
     "moment": "^2.21.0",
     "node-fetch": "^2.3.0",
     "ramda": "^0.25.0",
-    "simple-markdown": "^0.4.4",
+    "simple-markdown": "^0.5.2",
     "teleapiwrapper": "^2.3.2"
   },
   "devDependencies": {
